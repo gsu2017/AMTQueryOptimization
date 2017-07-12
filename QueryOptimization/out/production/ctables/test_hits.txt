@@ -1,0 +1,43 @@
+Round=0	HITID=3K2CEDRACC49Q1UUARI7DYBFDTNTM1	QNUM=3	START=0	XMLFile=C:\Users\TLD7040A\IdeaProjects\QueryOptimization\ctables\src\test0.xml
+Results for policy SimplePlurality/2011-09-01:
+- Assignment 32SCWG5HII7CVQEOWW777C8CAPRP6S: PluralityAnswersCorrect is 3
+- Assignment 32SCWG5HII7CVQEOWW777C8CAPRP6S: PluralityAnswersIncorrect is 0
+- Assignment 32SCWG5HII7CVQEOWW777C8CAPRP6S: WorkerAgreementScore is 100
+- Assignment 3A4NIXBJ772OT8KIRKLHFRWEVF5ML1: PluralityAnswersCorrect is 3
+- Assignment 3A4NIXBJ772OT8KIRKLHFRWEVF5ML1: PluralityAnswersIncorrect is 0
+- Assignment 3A4NIXBJ772OT8KIRKLHFRWEVF5ML1: WorkerAgreementScore is 100
+- Assignment 3B1NLC6UG0ZESJ3U89GTJ3L143UPGU: PluralityAnswersCorrect is 3
+- Assignment 3B1NLC6UG0ZESJ3U89GTJ3L143UPGU: PluralityAnswersIncorrect is 0
+- Assignment 3B1NLC6UG0ZESJ3U89GTJ3L143UPGU: WorkerAgreementScore is 100
+- HIT 3K2CEDRACC49Q1UUARI7DYBFDTNTM1: HitAgreementScore is 100
+- HIT 3K2CEDRACC49Q1UUARI7DYBFDTNTM1: AgreedAnswer for question0 is False
+- HIT 3K2CEDRACC49Q1UUARI7DYBFDTNTM1: AgreedAnswerFound for question0 is true
+- HIT 3K2CEDRACC49Q1UUARI7DYBFDTNTM1: AnswerAgreementScore for question0 is 100
+- HIT 3K2CEDRACC49Q1UUARI7DYBFDTNTM1: AgreedAnswer for question1 is True
+- HIT 3K2CEDRACC49Q1UUARI7DYBFDTNTM1: AgreedAnswerFound for question1 is true
+- HIT 3K2CEDRACC49Q1UUARI7DYBFDTNTM1: AnswerAgreementScore for question1 is 100
+- HIT 3K2CEDRACC49Q1UUARI7DYBFDTNTM1: AgreedAnswer for question2 is True
+- HIT 3K2CEDRACC49Q1UUARI7DYBFDTNTM1: AgreedAnswerFound for question2 is true
+- HIT 3K2CEDRACC49Q1UUARI7DYBFDTNTM1: AnswerAgreementScore for question2 is 100
+
+
+Round=1	HITID=33CLA8O0MJEQ4CPLKF9ZITQOS7ERFF	QNUM=2	START=3	XMLFile=C:\Users\TLD7040A\IdeaProjects\QueryOptimization\ctables\src\test1.xml
+Results for policy SimplePlurality/2011-09-01:
+- HIT 33CLA8O0MJEQ4CPLKF9ZITQOS7ERFF: HitAgreementScore is 100
+- HIT 33CLA8O0MJEQ4CPLKF9ZITQOS7ERFF: AgreedAnswer for question3 is False
+- HIT 33CLA8O0MJEQ4CPLKF9ZITQOS7ERFF: AgreedAnswerFound for question3 is true
+- HIT 33CLA8O0MJEQ4CPLKF9ZITQOS7ERFF: AnswerAgreementScore for question3 is 67
+- HIT 33CLA8O0MJEQ4CPLKF9ZITQOS7ERFF: AgreedAnswer for question4 is False
+- HIT 33CLA8O0MJEQ4CPLKF9ZITQOS7ERFF: AgreedAnswerFound for question4 is true
+- HIT 33CLA8O0MJEQ4CPLKF9ZITQOS7ERFF: AnswerAgreementScore for question4 is 67
+- Assignment 3ATTHHXXWBRXXJBGKOQDYSKKLFVXII: PluralityAnswersCorrect is 2
+- Assignment 3ATTHHXXWBRXXJBGKOQDYSKKLFVXII: PluralityAnswersIncorrect is 0
+- Assignment 3ATTHHXXWBRXXJBGKOQDYSKKLFVXII: WorkerAgreementScore is 100
+- Assignment 3B2X28YI3XIARWDEDRP6CS3NTLD6BP: PluralityAnswersCorrect is 2
+- Assignment 3B2X28YI3XIARWDEDRP6CS3NTLD6BP: PluralityAnswersIncorrect is 0
+- Assignment 3B2X28YI3XIARWDEDRP6CS3NTLD6BP: WorkerAgreementScore is 100
+- Assignment 3IAS3U3I0GJM9VUDQPD3MFMBDGB2B4: PluralityAnswersCorrect is 0
+- Assignment 3IAS3U3I0GJM9VUDQPD3MFMBDGB2B4: PluralityAnswersIncorrect is 2
+- Assignment 3IAS3U3I0GJM9VUDQPD3MFMBDGB2B4: WorkerAgreementScore is 0
+
+

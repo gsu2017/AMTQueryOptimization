@@ -1,0 +1,96 @@
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+<Overview>
+<Title>Investigation on basketball players</Title>
+<Text>
+Make sure you read the following instructions carefully before starting this task. 
+If you can't see the picture below, you can open a new window and visit the URL( https://s3-us-west-2.amazonaws.com/zju-crowdsourcing-instructions/NBAInstruction0.png ) to read the instructions.
+</Text>
+<Binary>
+<MimeType>
+<Type>image</Type>
+</MimeType>
+<DataURL>https://s3-us-west-2.amazonaws.com/zju-crowdsourcing-instructions/NBAInstruction0.png</DataURL>
+<AltText>Instructions</AltText>
+</Binary>
+</Overview><Question>
+<QuestionIdentifier>question0</QuestionIdentifier>
+<DisplayName>comparison between variable and constant</DisplayName>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<Text>player [JamesJones] in Season [2003]
+gp[6]	minutes[MISS]	pts[MISS]	oreb[X]	dreb[2]	
+
+Question: Is Level(X) &lt;4 ?
+</Text>
+</QuestionContent>
+<AnswerSpecification>
+<SelectionAnswer>
+<StyleSuggestion>radiobutton</StyleSuggestion>
+<Selections>
+<Selection>
+<SelectionIdentifier>True</SelectionIdentifier>
+<Text>Yes</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>False</SelectionIdentifier>
+<Text>No</Text>
+</Selection>
+</Selections>
+</SelectionAnswer>
+</AnswerSpecification>
+</Question>
+<Question>
+<QuestionIdentifier>question1</QuestionIdentifier>
+<DisplayName>comparison between variable and constant</DisplayName>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<Text>player [DamonJones] in Season [2003]
+gp[82]	minutes[X]	pts[573]	oreb[15]	dreb[155]	
+
+Question: Is Level(X) &lt;3 ?
+</Text>
+</QuestionContent>
+<AnswerSpecification>
+<SelectionAnswer>
+<StyleSuggestion>radiobutton</StyleSuggestion>
+<Selections>
+<Selection>
+<SelectionIdentifier>True</SelectionIdentifier>
+<Text>Yes</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>False</SelectionIdentifier>
+<Text>No</Text>
+</Selection>
+</Selections>
+</SelectionAnswer>
+</AnswerSpecification>
+</Question>
+<Question>
+<QuestionIdentifier>question2</QuestionIdentifier>
+<DisplayName>comparison between variable and constant</DisplayName>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<Text>player [JamesJones] in Season [2003]
+gp[6]	minutes[MISS]	pts[X]	oreb[MISS]	dreb[2]	
+
+Question: Is Level(X) &gt;3 ?
+</Text>
+</QuestionContent>
+<AnswerSpecification>
+<SelectionAnswer>
+<StyleSuggestion>radiobutton</StyleSuggestion>
+<Selections>
+<Selection>
+<SelectionIdentifier>True</SelectionIdentifier>
+<Text>Yes</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>False</SelectionIdentifier>
+<Text>No</Text>
+</Selection>
+</Selections>
+</SelectionAnswer>
+</AnswerSpecification>
+</Question>
+</QuestionForm>

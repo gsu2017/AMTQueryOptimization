@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="expression">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/expression.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/expression.jar!/" />
+    </SOURCES>
+  </library>
+</component>

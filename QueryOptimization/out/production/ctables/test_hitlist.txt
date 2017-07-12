@@ -1,0 +1,23 @@
+Round0: HITID=3E24UO25Q0TRO64URUPRUS86OLR6OI	QNUM=3	START=0	XMLFile=C:\Users\TLD7040A\IdeaProjects\QueryOptimization\ctables\src\test0.xml
+Results for policy SimplePlurality/2011-09-01:
+- HIT 3E24UO25Q0TRO64URUPRUS86OLR6OI: HitAgreementScore is 100
+- HIT 3E24UO25Q0TRO64URUPRUS86OLR6OI: AgreedAnswer for question0 is True
+- HIT 3E24UO25Q0TRO64URUPRUS86OLR6OI: AgreedAnswerFound for question0 is true
+- HIT 3E24UO25Q0TRO64URUPRUS86OLR6OI: AnswerAgreementScore for question0 is 100
+- HIT 3E24UO25Q0TRO64URUPRUS86OLR6OI: AgreedAnswer for question1 is False
+- HIT 3E24UO25Q0TRO64URUPRUS86OLR6OI: AgreedAnswerFound for question1 is true
+- HIT 3E24UO25Q0TRO64URUPRUS86OLR6OI: AnswerAgreementScore for question1 is 67
+- HIT 3E24UO25Q0TRO64URUPRUS86OLR6OI: AgreedAnswer for question2 is True
+- HIT 3E24UO25Q0TRO64URUPRUS86OLR6OI: AgreedAnswerFound for question2 is true
+- HIT 3E24UO25Q0TRO64URUPRUS86OLR6OI: AnswerAgreementScore for question2 is 100
+- Assignment 3EJPLAJKENJ69UGUJ559YAAQKOW6ZS: PluralityAnswersCorrect is 3
+- Assignment 3EJPLAJKENJ69UGUJ559YAAQKOW6ZS: PluralityAnswersIncorrect is 0
+- Assignment 3EJPLAJKENJ69UGUJ559YAAQKOW6ZS: WorkerAgreementScore is 100
+- Assignment 3EKVH9QMEZ7FOSSX4L49H5ABG1K2D8: PluralityAnswersCorrect is 2
+- Assignment 3EKVH9QMEZ7FOSSX4L49H5ABG1K2D8: PluralityAnswersIncorrect is 1
+- Assignment 3EKVH9QMEZ7FOSSX4L49H5ABG1K2D8: WorkerAgreementScore is 67
+- Assignment 3WR9XG3T64E9AX6AHMKBASXDE4D74G: PluralityAnswersCorrect is 3
+- Assignment 3WR9XG3T64E9AX6AHMKBASXDE4D74G: PluralityAnswersIncorrect is 0
+- Assignment 3WR9XG3T64E9AX6AHMKBASXDE4D74G: WorkerAgreementScore is 100
+
+

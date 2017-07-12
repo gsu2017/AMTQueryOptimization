@@ -1,0 +1,69 @@
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+<Overview>
+<Title>Investigation on basketball players</Title>
+<Text>
+Make sure you read the following instructions carefully before starting this task. 
+If you can't see the picture below, you can open a new window and visit the URL( https://s3-us-west-2.amazonaws.com/zju-crowdsourcing-instructions/NBAInstruction0.png ) to read the instructions.
+</Text>
+<Binary>
+<MimeType>
+<Type>image</Type>
+</MimeType>
+<DataURL>https://s3-us-west-2.amazonaws.com/zju-crowdsourcing-instructions/NBAInstruction0.png</DataURL>
+<AltText>Instructions</AltText>
+</Binary>
+</Overview><Question>
+<QuestionIdentifier>question3</QuestionIdentifier>
+<DisplayName>comparison between variable and constant</DisplayName>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<Text>player [JamesJones] in Season [2003]
+gp[6]	minutes[X]	pts[MISS]	oreb[MISS]	dreb[2]	
+
+Question: Is Level(X) &lt;3 ?
+</Text>
+</QuestionContent>
+<AnswerSpecification>
+<SelectionAnswer>
+<StyleSuggestion>radiobutton</StyleSuggestion>
+<Selections>
+<Selection>
+<SelectionIdentifier>True</SelectionIdentifier>
+<Text>Yes</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>False</SelectionIdentifier>
+<Text>No</Text>
+</Selection>
+</Selections>
+</SelectionAnswer>
+</AnswerSpecification>
+</Question>
+<Question>
+<QuestionIdentifier>question4</QuestionIdentifier>
+<DisplayName>comparison between variable and constant</DisplayName>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<Text>player [JamesJones] in Season [2003]
+gp[6]	minutes[X]	pts[MISS]	oreb[MISS]	dreb[2]	
+
+Question: Is Level(X) &lt;2 ?
+</Text>
+</QuestionContent>
+<AnswerSpecification>
+<SelectionAnswer>
+<StyleSuggestion>radiobutton</StyleSuggestion>
+<Selections>
+<Selection>
+<SelectionIdentifier>True</SelectionIdentifier>
+<Text>Yes</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>False</SelectionIdentifier>
+<Text>No</Text>
+</Selection>
+</Selections>
+</SelectionAnswer>
+</AnswerSpecification>
+</Question>
+</QuestionForm>

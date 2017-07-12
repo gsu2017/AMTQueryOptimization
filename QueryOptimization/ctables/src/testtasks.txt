@@ -1,0 +1,17 @@
+question2	4	2	(Var(R4, A2)>3)	true
+question1	3	1	(Var(R1, A1)<3)	false
+question0	0	3	(Var(R4, A3)<4)	true
+Round0
+question2	4	2	(Var(R4, A2)>3)	true
+question1	3	1	(Var(R1, A1)<3)	true
+question0	0	3	(Var(R4, A3)<4)	false
+
+
+Round1
+question3	3	1	(Var(R4, A1)<3)	false
+question2	4	2	(Var(R4, A2)>3)	true
+question4	0	1	(Var(R4, A1)<2)	false
+question1	3	1	(Var(R1, A1)<3)	true
+question0	0	3	(Var(R4, A3)<4)	false
+
+

@@ -1,0 +1,5 @@
+LintonJohnson	2003	41	735	173	59	124
+DamonJones	2003	82	2016	573	15	155
+DahntayJones	2003	20	154	36	7	16
+EddieJones	2003	81	2998	1401	38	270
+JamesJones	2003	6	26	7	0	2	2

@@ -1,0 +1,2 @@
+sb.append(strAry[1]).append(strAry[2]).append("\t").append(strAry[3]).append("\t");
+sb.append(strAry[4]).append("\t").append(strAry[6]).append("\t").append(strAry[7]).append("\t").append(strAry[8]).append("\t").append(strAry[10]).append("\t").append(strAry[11]).append("\t").append(strAry[12]).append("\t").append(strAry[15]).append("\n");

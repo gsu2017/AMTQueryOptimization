@@ -1,0 +1,145 @@
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+<Overview>
+<Title>Investigation on basketball players</Title>
+<Text>
+Make sure you read the following instructions carefully before starting this task. 
+If you can't see the picture below, you can open a new window and visit the URL() to read the instructions.
+</Text>
+<Binary>
+<MimeType>
+<Type>image</Type>
+</MimeType>
+<DataURL>https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png</DataURL>
+<AltText>Instructions</AltText>
+</Binary>
+<Text>
+For convenience, here are some examples.
+</Text>
+<Binary>
+<MimeType>
+<Type>image</Type>
+</MimeType>
+<DataURL>https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png</DataURL>
+<AltText>Examples</AltText>
+</Binary>
+</Overview>
+<Question>
+<QuestionIdentifier>Q1</QuestionIdentifier>
+<DisplayName>comparison between variable and constant</DisplayName>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<Text>
+
+player [LaphonsoEllis] in Season [2002]
+gp[55]    minutes[784]    pts[277]    oreb[x]    dreb[-]    reb[157]    asts[15]    stl[15]    blk[15]    turnover[31]    pf[88]    fgm[100]    ftm[50]    tpm[27]    fgmiss[162]    ftmiss[16]    tpmiss[80]    			
+
+QUESTION : Is x > 10 ?
+</Text>
+</QuestionContent>
+<AnswerSpecification>
+<SelectionAnswer>
+<StyleSuggestion>radiobutton</StyleSuggestion>
+<Selections>
+<Selection>
+<SelectionIdentifier>Yes</SelectionIdentifier>
+<Text>Yes</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>No</SelectionIdentifier>
+<Text>No</Text>
+</Selection>
+</Selections>
+</SelectionAnswer>
+</AnswerSpecification>
+</Question>
+<Question>
+<QuestionIdentifier>Q2</QuestionIdentifier>
+<DisplayName>comparison between variable and constant</DisplayName>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<Text>
+
+player [Laphonso Ellis] in Season [2002]
+gp[55]    minutes[784]    pts[277]    oreb[x]    dreb[-]    reb[157]    asts[15]    stl[15]    blk[15]    turnover[31]    pf[88]    fgm[100]    ftm[50]    tpm[27]    fgmiss[162]    ftmiss[16]    tpmiss[80]    			
+
+player [Jason Kapono] in Season [2003]
+gp[41]    minutes[427]    pts[145]    oreb[y]    dreb[36]    reb[55]    asts[14]    stl[-]    blk[2]    turnover[21]    pf[41]    fgm[52]    ftm[20]    tpm[21]    fgmiss[77]    ftmiss[4]    tpmiss[23]    			
+
+QUESTION : Is x > y ?
+</Text>
+</QuestionContent>
+<AnswerSpecification>
+<SelectionAnswer>
+<StyleSuggestion>radiobutton</StyleSuggestion>
+<Selections>
+<Selection>
+<SelectionIdentifier>Yes</SelectionIdentifier>
+<Text>Yes</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>No</SelectionIdentifier>
+<Text>No</Text>
+</Selection>
+</Selections>
+</SelectionAnswer>
+</AnswerSpecification>
+</Question>
+
+<Question>
+<QuestionIdentifier>(Var(R3, A4)&lt;5)</QuestionIdentifier>
+<DisplayName>comparison between variable and constant</DisplayName>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<Text>player [name1] in Season [2002]
+<br/>gp[MISS]	minutes[18]	pts[29]	oreb[36]	dreb[X]	reb[59]	asts[64]	stl[70]	blk[82]	turnover[MISS]	pf[MISS]	fgm[110]	ftm[129]	tpm[138]	fgmiss[145]	ftmiss[MISS]	tpmiss[165]	
+<br/>
+<br/>Question: Is Level(X) &lt;5 ?
+<br/></Text>
+</QuestionContent>
+<AnswerSpecification>
+<SelectionAnswer>
+<StyleSuggestion>radiobutton</StyleSuggestion>
+<Selections>
+<Selection>
+<SelectionIdentifier>Yes</SelectionIdentifier>
+<Text>Yes</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>No</SelectionIdentifier>
+<Text>No</Text>
+</Selection>
+</Selections>
+</SelectionAnswer>
+</AnswerSpecification>
+</Question>
+<Question>
+<QuestionIdentifier>(Var(R3, A9)&gt;Var(R7, A9))</QuestionIdentifier>
+<DisplayName>comparison between variable and constant</DisplayName>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<Text>player [name1] in Season [2002]
+<br/>gp[MISS]	minutes[18]	pts[29]	oreb[36]	dreb[MISS]	reb[59]	asts[64]	stl[70]	blk[82]	turnover[X]	pf[MISS]	fgm[110]	ftm[129]	tpm[138]	fgmiss[145]	ftmiss[MISS]	tpmiss[165]	
+<br/>player [name2] in Season [2003]
+<br/>gp[10]	minutes[29]	pts[31]	oreb[MISS]	dreb[51]	reb[68]	asts[73]	stl[MISS]	blk[98]	turnover[Y]	pf[118]	fgm[MISS]	ftm[133]	tpm[148]	fgmiss[154]	ftmiss[MISS]	tpmiss[171]	
+<br/>
+<br/>Question: Is Level(X) &gt; Level(Y) ?
+<br/></Text>
+</QuestionContent>
+<AnswerSpecification>
+<SelectionAnswer>
+<StyleSuggestion>radiobutton</StyleSuggestion>
+<Selections>
+<Selection>
+<SelectionIdentifier>Yes</SelectionIdentifier>
+<Text>Yes</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>No</SelectionIdentifier>
+<Text>No</Text>
+</Selection>
+</Selections>
+</SelectionAnswer>
+</AnswerSpecification>
+</Question>
+
+</QuestionForm>

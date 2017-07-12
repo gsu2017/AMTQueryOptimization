@@ -1,0 +1,7 @@
+#root	0
+#nodes	5
+#edges	4
+atfile	C:\Users\TLD7040A\Desktop\BayesianNetwork\banjo.2.2.0\data\release2.0\static\input\nba.5d.5000.i50.attrs.txt
+bsfile	C:\Users\TLD7040A\Desktop\BayesianNetwork\banjo.2.2.0\data\release2.0\static\output\top.graph.2017.05.22.11.22.56.txt
+csfile	.\nba.cs
+dafile	C:\Users\TLD7040A\Desktop\BayesianNetwork\banjo.2.2.0\data\release2.0\static\input\nba.5d.5000.i50.output.txt

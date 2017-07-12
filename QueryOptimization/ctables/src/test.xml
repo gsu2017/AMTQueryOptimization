@@ -1,0 +1,69 @@
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+<Overview>
+<Title>Investigation on basketball players</Title>
+<Text>
+Make sure you read the following instructions carefully before starting this task. 
+If you can't see the picture below, you can open a new window and visit the URL() to read the instructions.
+</Text>
+<Binary>
+<MimeType>
+<Type>image</Type>
+</MimeType>
+<DataURL>https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png</DataURL>
+<AltText>Instructions</AltText>
+</Binary>
+</Overview><Question>
+<QuestionIdentifier>(Var(R4, A3)&lt;4)</QuestionIdentifier>
+<DisplayName>comparison between variable and constant</DisplayName>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<Text>player [JamesJones] in Season [2003]
+<br/>gp[6]	minutes[MISS]	pts[MISS]	oreb[X]	dreb[2]	
+<br/>
+<br/>Question: Is Level(X) &lt;4 ?
+<br/></Text>
+</QuestionContent>
+<AnswerSpecification>
+<SelectionAnswer>
+<StyleSuggestion>radiobutton</StyleSuggestion>
+<Selections>
+<Selection>
+<SelectionIdentifier>Yes</SelectionIdentifier>
+<Text>Yes</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>No</SelectionIdentifier>
+<Text>No</Text>
+</Selection>
+</Selections>
+</SelectionAnswer>
+</AnswerSpecification>
+</Question>
+<Question>
+<QuestionIdentifier>(Var(R1, A1)&lt;3)</QuestionIdentifier>
+<DisplayName>comparison between variable and constant</DisplayName>
+<IsRequired>true</IsRequired>
+<QuestionContent>
+<Text>player [DamonJones] in Season [2003]
+<br/>gp[82]	minutes[X]	pts[573]	oreb[15]	dreb[155]	
+<br/>
+<br/>Question: Is Level(X) &lt;3 ?
+<br/></Text>
+</QuestionContent>
+<AnswerSpecification>
+<SelectionAnswer>
+<StyleSuggestion>radiobutton</StyleSuggestion>
+<Selections>
+<Selection>
+<SelectionIdentifier>Yes</SelectionIdentifier>
+<Text>Yes</Text>
+</Selection>
+<Selection>
+<SelectionIdentifier>No</SelectionIdentifier>
+<Text>No</Text>
+</Selection>
+</Selections>
+</SelectionAnswer>
+</AnswerSpecification>
+</Question>
+</QuestionForm>
